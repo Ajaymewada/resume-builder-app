@@ -9,7 +9,7 @@ function Home() {
           <source src={HomeVideo} />
         </video>
         <div class="overlay">
-          <h1 className='heading-text display-1'>Build Your Resume In Short Time
+          <h1 className='heading-text display-1'>Build Your <span className='resumeText'>Resume</span> In Short Time
           </h1>
         </div>
         

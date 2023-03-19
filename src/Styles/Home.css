@@ -6,18 +6,12 @@
   height: 89vh;
   /* background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover; */
 }
-/* video{
-  width: 100vw;
-  height: 80%;
-  border: 2px solid #000
-} */
 .overlay {
   width: 100%;
   height: 89vh;
   position: absolute;
   top: 0;
   left: 0;
-  /* background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%); */
   background-size: 3px 3px;
   z-index: 2;
 }
@@ -37,4 +31,8 @@ h1 {
 }
 .heading-text{
     color: #3b3d5e !important;
+}
+.resumeText{
+    color: #3d348b;
+    font-weight: 400;
 }
