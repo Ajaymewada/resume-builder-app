@@ -17,7 +17,7 @@ function Home() {
              </div>
           </div>
           <div className='row justify-content-center'>
-            <div className="col-lg-4 d-flex justify-content-center">
+            <div className="col-lg-5 d-flex justify-content-start">
               <Link className='btn primary-btn px-5 mt-4 py-2 fs-20px shadow-none' to='/build'>Build</Link>
             </div>
           </div>
