@@ -6,9 +6,9 @@ import { Outlet, Link } from 'react-router-dom'
 function Header() {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg fixed-top primary-bg navbar-light">
-                <div class="container">
-                    <Link class="navbar-brand" to='/'
+            <nav className="navbar navbar-expand-lg fixed-top primary-bg navbar-light">
+                <div className="container">
+                    <Link className="navbar-brand" to='/'
                     ><img
                             id="RB-logo"
                             src={Rlogo}
@@ -17,7 +17,7 @@ function Header() {
                             height="60"
                         /></Link>
                     <button
-                        class="navbar-toggler"
+                        className="navbar-toggler"
                         type="button"
                         data-mdb-toggle="collapse"
                         data-mdb-target="#navbarSupportedContent"
@@ -25,21 +25,21 @@ function Header() {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <i class="fas fa-bars"></i>
+                        <i className="fas fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto align-items-center">
-                            <li class="nav-item">
-                                <Link class="nav-link mx-2 text-white fs-18px" to='/'>Home</Link>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto align-items-center">
+                            <li className="nav-item">
+                                <Link className="nav-link mx-2 text-white fs-18px" to='/'>Home</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link mx-2 text-white fs-18px" to='/build'>Build</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link mx-2 text-white fs-18px" to='/build'>Build</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link mx-2 text-white fs-18px" to='/'>Sample</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link mx-2 text-white fs-18px" to='/'>Sample</Link>
                             </li>
-                            {/* <li class="nav-item ms-3">
-                                <a class="btn btn-black btn-rounded" href="#!">Sign in</a>
+                            {/* <li className="nav-item ms-3">
+                                <a className="btn btn-black btn-rounded" href="#!">Sign in</a>
                             </li> */}
                         </ul>
                     </div>

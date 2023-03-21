@@ -1,0 +1,24 @@
+.Tabs{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.Tabs .Tab{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Tabs .active{
+    background-color: rgb(43, 58, 226);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
