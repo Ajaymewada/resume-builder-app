@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 .Tabs .Tab{
-    background-color: blueviolet;
+    background-color: #3d348b;
     color: aliceblue;
     padding: 10px 20px;
     border-radius: 8px;
@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .Tabs .active{
-    background-color: rgb(43, 58, 226);
+    background-color: rgb(215 106 42 / 86%);
     color: aliceblue;
     padding: 10px 20px;
     border-radius: 8px;
