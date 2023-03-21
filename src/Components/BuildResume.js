@@ -9,7 +9,7 @@ function BuildResume() {
   }
   return (
     <div>
-      <div className="row justify-content-center mt-5 pt-5">
+      <div className="row justify-content-center mt-5 pt-5 w-100">
         <div className="col-lg-8 mt-5">
           <ul className='Tabs'>
             <li className={tabNumber === '0' ? 'Tab active' : 'Tab'} tabnumber='0' onClick={HandleTabs}>Basic</li>
@@ -20,7 +20,7 @@ function BuildResume() {
         </div>
       </div>
 
-      <div className="row justify-content-center mt-4">
+      <div className="row justify-content-center mt-4 w-100">
         <div className="col-lg-10">
           <TabCard tabnumber={tabNumber} />
         </div>
